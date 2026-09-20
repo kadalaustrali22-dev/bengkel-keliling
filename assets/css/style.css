@@ -1,0 +1,133 @@
+/* =========================
+   GLOBAL
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #1f2937;
+}
+
+
+/* =========================
+   LOGIN PAGE
+========================= */
+
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+/* =========================
+   LOGIN CONTAINER
+========================= */
+
+.login-container {
+    width: 100%;
+    max-width: 420px;
+}
+
+
+/* =========================
+   LOGIN CARD
+========================= */
+
+.login-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 35px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e5e7eb;
+}
+
+
+/* =========================
+   LOGIN TITLE
+========================= */
+
+.login-card h2 {
+    margin-bottom: 8px;
+    color: #172033;
+    font-weight: 700;
+}
+
+.login-card p {
+    margin-bottom: 0;
+    color: #6b7280;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.login-card .form-label {
+    font-weight: 600;
+    color: #374151;
+}
+
+.login-card .form-control {
+    height: 46px;
+    border-radius: 7px;
+    border: 1px solid #d1d5db;
+    padding: 10px 13px;
+}
+
+.login-card .form-control:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+
+/* =========================
+   LOGIN BUTTON
+========================= */
+
+.login-card .btn-primary {
+    height: 46px;
+    border-radius: 7px;
+    background: #2563eb;
+    border-color: #2563eb;
+    font-weight: 600;
+}
+
+.login-card .btn-primary:hover {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+
+/* =========================
+   ALERT
+========================= */
+
+.login-card .alert {
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+    .login-page {
+        padding: 15px;
+    }
+
+    .login-card {
+        padding: 25px 20px;
+    }
+
+}
